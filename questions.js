@@ -23,7 +23,7 @@ const questions = [
   },
   {
     numb: 3,
-    question: "Ton éditeur de code favori ?",
+    question: "Mon éditeur de code favori ?",
     answer: "VS Code",
     options: [
       "SublimeText",
@@ -45,7 +45,7 @@ const questions = [
   },
   {
     numb: 5,
-    question: "Si tu étais un langage de programmation, tu serais…",
+    question: "Si tu étais un langage de programmation, je serais…",
     answer: "JavaScript – Flexible et toujours en mouvement",
     options: [
       "JavaScript – Flexible et toujours en mouvement",
