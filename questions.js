@@ -1,7 +1,7 @@
 const questions = [
   {
     numb: 1,
-    question: "Code en musique ou en silence?",
+    question: "Je code en musique ou en silence?",
     answer: "Bruit de fond léger ☕",
     options: [
       "Musique à fond 🎶",
@@ -23,7 +23,7 @@ const questions = [
   },
   {
     numb: 3,
-    question: "Mon éditeur de code favori ?",
+    question: "Mon éditeur de code favori?",
     answer: "VS Code",
     options: [
       "SublimeText",
@@ -39,7 +39,7 @@ const questions = [
     options: [
       "Prends une grande inspiration et fonces 🧘‍♂️",
       "Appelle un collègue à la rescousse 📞 ",
-      "Blâmes discrètement Git 🙃 ",
+      "Blâme discrètement Git 🙃 ",
       "Dis “ça marchait chez moi” et pleure en silence 😭"
     ]
   },
