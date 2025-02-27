@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Laura</title>
+  <!-- Linking CSS for styling the quiz app -->
+  <link rel="stylesheet" href="stylequiz.css">
+  <!-- FontAwesome CDN Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body class="quiz_body">
+  <div div class="btn_container">
+  <!-- Start Quiz Button -->
+  <div class="start_btn"><button>Start Quiz</button></div>
+  <!-- <a href="./index.html" class="start_btn"><button>Retour</button></a> -->
+  <!-- <div><a href="./index.html" class="start_btn" role="button">Retour</a></div> -->
+  </div>
+
+  <!-- Info Box (displayed when the quiz starts) -->
+  <div class="info_box">
+    <div class="info-title"><span>Règles du quiz</span></div>
+    <div class="info-list">
+      <div class="info">1. Vouz avez <span>15 secondes</span> par question.</div>
+      <div class="info">2. Une fois choisie chaque reponse est finale.</div>
+      <div class="info">3. Lorsque le temps s'est ecoulé, vous ne pouvez plus faire de choix.</div>
+      <div class="info">4. Vous ne pouvez pas quitter le quiz avant la fin.</div>
+      <div class="info">5. Les points sont attribués pour chaque reponse correcte.</div>
+    </div>
+    <div class="buttons">
+      <button class="quit">Quitter</button>
+      <button class="restart">Continuer</button>
+    </div>
+  </div>
+  <!-- Quiz Box (main container for the quiz) -->
+  <div class="quiz_box">
+    <header>
+      <div class="title">Quiz</div>
+      <div class="timer">
+        <div class="time_left_txt">Temps</div>
+        <div class="timer_sec">15</div>
+      </div>
+      <div class="time_line"></div>
+    </header>
+    <section>
+      <div class="que_text">
+        <!-- Question text will be inserted here by JavaScript -->
+      </div>
+      <div class="option_list">
+        <!-- Options will be inserted here by JavaScript -->
+      </div>
+    </section>
+    <!-- Footer of Quiz Box -->
+    <footer>
+      <div class="total_que">
+        <!-- Question count number will be inserted here by JavaScript -->
+      </div>
+      <button class="next_btn">Prochain</button>
+    </footer>
+  </div>
+  <!-- Result Box (displayed after completing the quiz) -->
+  <div class="result_box">
+    <div class="icon">
+      <!-- <i class="fas fa-crown"></i> -->
+    </div>
+    <div class="complete_text">Vous avez complété le quiz!</div>
+    <div class="score_text">
+      <!-- Score result will be inserted here by JavaScript -->
+    </div>
+    <div class="buttons">
+      <button class="restart">Rejouer</button>
+      <button class="quit">Quitter</button>
+    </div>
+  </div>
+
+  <!-- JavaScript file for managing questions and options -->
+  <script src="./questions.js"></script>
+
+  <!-- JavaScript file containing all quiz logic -->
+  <script src="./script.js"></script>
+</body>
+</html>
