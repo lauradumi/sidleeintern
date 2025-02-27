@@ -45,7 +45,7 @@ const questions = [
   },
   {
     numb: 5,
-    question: "Si tu étais un langage de programmation, je serais…",
+    question: "Si j'étais un langage de programmation, je serais…",
     answer: "JavaScript – Flexible et toujours en mouvement",
     options: [
       "JavaScript – Flexible et toujours en mouvement",
